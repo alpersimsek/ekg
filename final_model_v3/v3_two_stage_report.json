@@ -1,0 +1,100 @@
+{
+  "base_reference": {
+    "test_macro_f1": 0.9382599872565627,
+    "test_iletim_f1": 0.9046321525885558
+  },
+  "selected_thresholds": {
+    "positive_threshold": 0.83,
+    "negative_threshold": 0.21,
+    "val_macro_f1": 0.9290989975790039,
+    "val_iletim_f1": 0.8762886597938143,
+    "val_iletim_precision": 0.85,
+    "val_iletim_recall": 0.9042553191489362,
+    "val_iletim_fn": 18,
+    "val_iletim_fp": 30,
+    "val_iletim_total_error": 48
+  },
+  "validation": {
+    "accuracy": 0.9514672686230248,
+    "macro_f1": 0.9290989975790039,
+    "per_class_precision": {
+      "normal": 0.946611909650924,
+      "ritim": 0.9660116834838024,
+      "iletim": 0.85
+    },
+    "per_class_recall": {
+      "normal": 0.9597501734906315,
+      "ritim": 0.9498694516971279,
+      "iletim": 0.9042553191489362
+    },
+    "per_class_f1": {
+      "normal": 0.9531357684355617,
+      "ritim": 0.9578725645076357,
+      "iletim": 0.8762886597938143
+    },
+    "confusion_matrix": [
+      [
+        1383,
+        54,
+        4
+      ],
+      [
+        70,
+        1819,
+        26
+      ],
+      [
+        8,
+        10,
+        170
+      ]
+    ],
+    "positive_threshold": 0.83,
+    "negative_threshold": 0.21,
+    "iletim_fn": 18,
+    "iletim_fp": 30,
+    "iletim_total_error": 48
+  },
+  "test": {
+    "accuracy": 0.9534949267192785,
+    "macro_f1": 0.9396172738374782,
+    "per_class_precision": {
+      "normal": 0.9487534626038782,
+      "ritim": 0.9599167100468506,
+      "iletim": 0.9234972677595629
+    },
+    "per_class_recall": {
+      "normal": 0.9494109494109494,
+      "ritim": 0.9624217118997912,
+      "iletim": 0.8941798941798942
+    },
+    "per_class_f1": {
+      "normal": 0.9490820921371667,
+      "ritim": 0.9611675788376336,
+      "iletim": 0.9086021505376344
+    },
+    "confusion_matrix": [
+      [
+        1370,
+        66,
+        7
+      ],
+      [
+        65,
+        1844,
+        7
+      ],
+      [
+        9,
+        11,
+        169
+      ]
+    ],
+    "positive_threshold": 0.83,
+    "negative_threshold": 0.21,
+    "iletim_fn": 20,
+    "iletim_fp": 14,
+    "iletim_total_error": 34
+  },
+  "meaningful_gain": true
+}

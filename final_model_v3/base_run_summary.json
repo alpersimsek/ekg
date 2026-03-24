@@ -1,0 +1,35 @@
+{
+  "run_dir": "/home/alper/ekg/secili_model_adaylari/rba02_final_aday/tuning/ft06_lr5e5_e8_fn150_fr200_light_wd5e5",
+  "best_epoch": 7,
+  "epochs": 8,
+  "lr": 5e-05,
+  "weight_decay": 5e-05,
+  "focus_normal_weight": 1.5,
+  "focus_ritim_weight": 2.0,
+  "augment": "light",
+  "val_macro_f1": 0.9294984911496341,
+  "test_macro_f1": 0.9382599872565627,
+  "test_iletim_f1": 0.9046321525885558,
+  "normal_to_ritim": 66,
+  "ritim_to_normal": 65,
+  "priority_fp_sum": 131,
+  "test_confusion_matrix": [
+    [
+      1372,
+      66,
+      5
+    ],
+    [
+      65,
+      1844,
+      7
+    ],
+    [
+      10,
+      13,
+      166
+    ]
+  ],
+  "confusion_matrix_test_png": "/home/alper/ekg/secili_model_adaylari/rba02_final_aday/tuning/ft06_lr5e5_e8_fn150_fr200_light_wd5e5/visuals/confusion_matrix_test.png",
+  "gradcam_summary_test_json": "/home/alper/ekg/secili_model_adaylari/rba02_final_aday/tuning/ft06_lr5e5_e8_fn150_fr200_light_wd5e5/visuals/gradcam_summary_test.json"
+}

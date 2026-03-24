@@ -1,0 +1,68 @@
+[
+  {
+    "kayit_id": "JS39241",
+    "gercek": "normal",
+    "base_tahmin": "normal",
+    "final_tahmin": "normal",
+    "override_type": "none",
+    "tani_kodlari": "426783006",
+    "base_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/base_gradcam_JS39241_normal_to_normal.png",
+    "aux_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/aux_gradcam_JS39241_normal_to_normal.png",
+    "aux_iletim_olasilik": 1.1348717634973582e-05
+  },
+  {
+    "kayit_id": "JS10294",
+    "gercek": "ritim",
+    "base_tahmin": "ritim",
+    "final_tahmin": "ritim",
+    "override_type": "none",
+    "tani_kodlari": "426761007",
+    "base_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/base_gradcam_JS10294_ritim_to_ritim.png",
+    "aux_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/aux_gradcam_JS10294_ritim_to_ritim.png",
+    "aux_iletim_olasilik": 7.427867210196837e-09
+  },
+  {
+    "kayit_id": "E04212",
+    "gercek": "iletim",
+    "base_tahmin": "iletim",
+    "final_tahmin": "iletim",
+    "override_type": "none",
+    "tani_kodlari": "270492004",
+    "base_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/base_gradcam_E04212_iletim_to_iletim.png",
+    "aux_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/aux_gradcam_E04212_iletim_to_iletim.png",
+    "aux_iletim_olasilik": 0.9999834299087524
+  },
+  {
+    "kayit_id": "A0330",
+    "gercek": "normal",
+    "base_tahmin": "normal",
+    "final_tahmin": "iletim",
+    "override_type": "force_iletim",
+    "tani_kodlari": "426783006",
+    "base_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/base_gradcam_A0330_normal_to_normal.png",
+    "aux_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/aux_gradcam_A0330_normal_to_iletim.png",
+    "aux_iletim_olasilik": 0.9879751801490784
+  },
+  {
+    "kayit_id": "A2606",
+    "gercek": "iletim",
+    "base_tahmin": "iletim",
+    "final_tahmin": "normal",
+    "override_type": "revert_from_iletim",
+    "tani_kodlari": "270492004",
+    "base_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/base_gradcam_A2606_iletim_to_iletim.png",
+    "aux_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/aux_gradcam_A2606_iletim_to_normal.png",
+    "aux_iletim_olasilik": 0.011734520085155964
+  },
+  {
+    "kayit_id": "JS36579",
+    "gercek": "normal",
+    "base_tahmin": "ritim",
+    "final_tahmin": "ritim",
+    "override_type": "none",
+    "tani_kodlari": "426783006",
+    "base_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/base_gradcam_JS36579_normal_to_ritim.png",
+    "aux_gradcam": "/home/alper/ekg/secili_model_adaylari/finalist_v3_aday/visuals/aux_gradcam_JS36579_normal_to_ritim.png",
+    "aux_iletim_olasilik": 4.793745915776526e-07
+  }
+]

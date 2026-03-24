@@ -1,0 +1,185 @@
+{
+  "manifest": "/home/alper/ekg/artifacts/uc_sinif/manifest_uc_sinif_temiz.csv",
+  "device": "cuda",
+  "epochs": 8,
+  "batch_size": 64,
+  "model": "baseline",
+  "lr": 5e-05,
+  "min_lr": 1e-06,
+  "weight_decay": 5e-05,
+  "dropout": 0.2,
+  "label_smoothing": 0.05,
+  "scheduler": "cosine",
+  "augment": "light",
+  "resume_checkpoint": "/home/alper/ekg/secili_model_adaylari/rba02_final_aday/best_model.pt",
+  "sampler": "weighted",
+  "class_weight_mode": "none",
+  "focus_normal_codes": [
+    "426783006"
+  ],
+  "focus_ritim_codes": [
+    "284470004",
+    "426177001",
+    "427393009"
+  ],
+  "focus_normal_weight": 1.5,
+  "focus_ritim_weight": 2.0,
+  "sampler_stats": {
+    "sampler_mode": "weighted",
+    "focus_normal_hits": 11535,
+    "focus_ritim_hits": 9528,
+    "avg_weight": 0.00012503650979933217,
+    "max_weight": 0.000282027779736304,
+    "min_weight": 6.525711302531976e-05
+  },
+  "train_size": 28366,
+  "val_size": 3544,
+  "test_size": 3548,
+  "class_names": [
+    "normal",
+    "ritim",
+    "iletim"
+  ],
+  "best_epoch": 7,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.18709453631399683,
+      "val_loss": 0.28908431906732424,
+      "val_macro_f1": 0.9248642637636267,
+      "val_accuracy": 0.9503386004514672,
+      "lr": 5e-05
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.185703526945685,
+      "val_loss": 0.29630391915280446,
+      "val_macro_f1": 0.9266799741190684,
+      "val_accuracy": 0.9483634311512416,
+      "lr": 4.8135048546526525e-05
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.18541710064742828,
+      "val_loss": 0.28769341467734655,
+      "val_macro_f1": 0.9217780140244223,
+      "val_accuracy": 0.9497742663656885,
+      "lr": 4.2824116139070415e-05
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.1844838653186611,
+      "val_loss": 0.28754481706877594,
+      "val_macro_f1": 0.9250064795535246,
+      "val_accuracy": 0.9517494356659142,
+      "lr": 3.4875744092944704e-05
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.18392005974526282,
+      "val_loss": 0.29090975961620597,
+      "val_macro_f1": 0.926642927219769,
+      "val_accuracy": 0.9511851015801355,
+      "lr": 2.5500000000000003e-05
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.18329638316581223,
+      "val_loss": 0.2900143298015638,
+      "val_macro_f1": 0.9281745833860312,
+      "val_accuracy": 0.9511851015801355,
+      "lr": 1.6124255907055302e-05
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.18267934667217725,
+      "val_loss": 0.2882816971828383,
+      "val_macro_f1": 0.9294984911496341,
+      "val_accuracy": 0.9517494356659142,
+      "lr": 8.175883860929588e-06
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.1833942287415634,
+      "val_loss": 0.28754050817769483,
+      "val_macro_f1": 0.9285892060470897,
+      "val_accuracy": 0.9514672686230248,
+      "lr": 2.864951453473475e-06
+    }
+  ],
+  "validation": {
+    "loss": 0.2882816971828383,
+    "macro_f1": 0.9294984911496341,
+    "accuracy": 0.9517494356659142,
+    "per_class_precision": {
+      "normal": 0.9440273037542662,
+      "ritim": 0.965097831835008,
+      "iletim": 0.8776595744680851
+    },
+    "per_class_recall": {
+      "normal": 0.9597501734906315,
+      "ritim": 0.9530026109660574,
+      "iletim": 0.8776595744680851
+    },
+    "per_class_f1": {
+      "normal": 0.9518238128011012,
+      "ritim": 0.9590120861797161,
+      "iletim": 0.8776595744680851
+    },
+    "confusion_matrix": [
+      [
+        1383,
+        54,
+        4
+      ],
+      [
+        71,
+        1825,
+        19
+      ],
+      [
+        11,
+        12,
+        165
+      ]
+    ]
+  },
+  "test": {
+    "loss": 0.28937361677510093,
+    "macro_f1": 0.9382599872565627,
+    "accuracy": 0.9532130777903044,
+    "per_class_precision": {
+      "normal": 0.9481686247408431,
+      "ritim": 0.9589183567342694,
+      "iletim": 0.9325842696629213
+    },
+    "per_class_recall": {
+      "normal": 0.9507969507969508,
+      "ritim": 0.9624217118997912,
+      "iletim": 0.8783068783068783
+    },
+    "per_class_f1": {
+      "normal": 0.9494809688581315,
+      "ritim": 0.9606668403230008,
+      "iletim": 0.9046321525885558
+    },
+    "confusion_matrix": [
+      [
+        1372,
+        66,
+        5
+      ],
+      [
+        65,
+        1844,
+        7
+      ],
+      [
+        10,
+        13,
+        166
+      ]
+    ]
+  },
+  "elapsed_seconds": 73.08129739761353
+}

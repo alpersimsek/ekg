@@ -1,0 +1,39 @@
+{
+  "data_dir": "/home/alper/ekg/data/3_sinif_data_birlesik",
+  "mapping_csv": "/home/alper/ekg/yedek/20260323_182919/yeni_yaklasım/siniflar_final.csv",
+  "total_hea": 62985,
+  "total_mat": 62985,
+  "format_ok_12_500_5000": 62985,
+  "class_counts": {
+    "normal": 22107,
+    "ritim": 37844,
+    "iletim": 3034
+  },
+  "balanced_class_weights": {
+    "normal": 0.949699,
+    "ritim": 0.554778,
+    "iletim": 6.919908
+  },
+  "normalized_inverse_frequency_weights": {
+    "normal": 0.112732,
+    "ritim": 0.065854,
+    "iletim": 0.821414
+  },
+  "sex_counts": {
+    "Female": 29256,
+    "Male": 33712,
+    "Unknown": 17
+  },
+  "age_bucket_counts": {
+    "0-17": 2090,
+    "18-39": 7896,
+    "40-64": 27783,
+    "65-74": 13637,
+    "75+": 11357,
+    "bilinmiyor": 222
+  },
+  "age_min": 0,
+  "age_max": 92,
+  "age_mean": 57.57,
+  "unique_snomed_count": 64
+}

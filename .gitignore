@@ -1,0 +1,83 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+
+# ===========================
+# Virtual environment
+# ===========================
+.venv/
+venv/
+env/
+
+# ===========================
+# Veri dosyalari (cok buyuk - 7.5 GB)
+# ===========================
+data/
+
+# ===========================
+# Yedekler (cok buyuk - 85 GB)
+# ===========================
+yedek/
+
+# ===========================
+# Model checkpoint dosyalari (.pt)
+# ===========================
+*.pt
+*.pth
+*.onnx
+
+# ===========================
+# Artifact ciktilari (model dosyalari + gorseller)
+# Sadece raporlar ve scriptler takip edilsin
+# ===========================
+artifacts/
+
+# ===========================
+# Secili model adaylari (buyuk .pt dosyalari icerir)
+# ===========================
+secili_model_adaylari/
+
+# ===========================
+# Arsiv dosyalari
+# ===========================
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ===========================
+# OS dosyalari
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Log dosyalari
+# ===========================
+*.log
